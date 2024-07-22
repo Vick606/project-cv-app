@@ -1,0 +1,10 @@
+.cv-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .submit-btn {
+    align-self: flex-start;
+    margin-top: 20px;
+  }
