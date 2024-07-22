@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import CVForm from './components/CVForm'
 import CVPreview from './components/CVPreview'
+import Footer from './components/Footer'
 import './styles/App.css'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <CVPreview data={cvData} onEdit={handleEdit} />
         )}
       </main>
+      <Footer />
     </div>
   )
 }
