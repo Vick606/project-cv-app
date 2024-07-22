@@ -6,11 +6,10 @@ import './styles/App.css'
 
 function App() {
   const [cvData, setCvData] = useState({
-    generalInfo: {},
+    generalInfo: { name: '', email: '', phone: '' },
     education: [],
     experience: []
   })
-
   const [isEditing, setIsEditing] = useState(true)
 
   const handleSubmit = (newData) => {
@@ -25,11 +24,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {isEditing ? (
-        <CVForm onSubmit={handleSubmit} initialData={cvData} />
-      ) : (
-        <CVPreview data={cvData} onEdit={handleEdit} />
-      )}
+      <main>
+        {isEditing ? (
+          <CVForm onSubmit={handleSubmit} initialData={cvData} />
+        ) : (
+          <CVPreview data={cvData} onEdit={handleEdit} />
+        )}
+      </main>
     </div>
   )
 }
