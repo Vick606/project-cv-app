@@ -29,7 +29,7 @@ Check out the live demo [here](https://your-netlify-url.netlify.app)!
 
 ## 📸 Screenshot
 
-[Add a screenshot of your app here]
+![alt text](image.png)
 
 ## 🤝 Contributing
 
@@ -50,5 +50,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Vick - vickoch20@gmail.com
 
 ---
-
-⭐️ From vickoch20@gmail.com
