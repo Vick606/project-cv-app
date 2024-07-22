@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import CVForm from './components/CVForm'
 import CVPreview from './components/CVPreview'
-import './App.css'
+import './styles/App.css'
 
 function App() {
   const [cvData, setCvData] = useState({
