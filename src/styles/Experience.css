@@ -1,0 +1,28 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .experience-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .experience input, .experience textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .experience textarea {
+    grid-column: span 2;
+    resize: vertical;
+  }
+  
+  .experience button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
