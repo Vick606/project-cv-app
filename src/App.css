@@ -1,80 +1,119 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-
+/* Global Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   line-height: 1.6;
   color: #333;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f0f2f5;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* App Container */
 .App {
   max-width: 800px;
+  width: 100%;
   margin: 0 auto;
   padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
+/* Main Content */
 main {
+  flex: 1;
   background-color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
   margin-top: 20px;
 }
 
+/* Buttons */
 button {
   background-color: #007bff;
   color: #fff;
   border: none;
-  padding: 10px 15px;
+  padding: 12px 20px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.1s;
 }
 
 button:hover {
   background-color: #0056b3;
+  transform: translateY(-2px);
 }
 
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+button:active {
+  transform: translateY(0);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Form Styles */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Section Styles */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+.app-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  margin-top: auto;
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.heart {
+  color: #ff0000;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  main {
+    padding: 20px;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  button {
+    width: 100%;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
