@@ -1,0 +1,17 @@
+.cv-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .preview-section {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  .preview-section h3 {
+    margin-top: 0;
+    color: #007bff;
+  }
