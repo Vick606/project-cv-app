@@ -25,7 +25,7 @@ Welcome to the CV Generator – your one-stop solution for creating professional
 
 ## 🌐 Live Demo
 
-Check out the live demo [here](https://your-netlify-url.netlify.app)!
+Check out the live demo [here](https://project-cv-app.vercel.app/)!
 
 ## 📸 Screenshot
 
