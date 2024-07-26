@@ -33,7 +33,9 @@ Check out the live demo [here](https://project-cv-app.vercel.app/)!
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. 
+
+Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -50,3 +52,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Vick - vickoch20@gmail.com
 
 ---
+Gracias!
